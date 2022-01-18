@@ -1,0 +1,401 @@
+
+/*
+ * 
+ * 
+ */
+
+#ca_logo-slide {
+	
+	width:113px;
+	height:49px;
+	
+	margin:auto;
+	
+	
+    transition: all 1.8s ease-in;
+}
+
+
+#ca_logo-anim {
+	
+	/*position:absolute;*/
+	
+	width:113px;
+	height:49px;
+
+	margin-top:30vh;
+	margin-left:auto;
+	margin-right:auto;
+	
+	transform-origin: 50% 25%;
+    transition: all 0.3s ease-in;
+}
+
+
+
+
+@media (max-width:500px) {
+
+
+	#ca_logo-anim {	
+		margin-top:20vh;
+	}
+}
+
+
+#ca_text-anim {
+	
+	
+	width:100%;
+	
+	margin-top:10vh;
+	margin-left:auto;
+	margin-right:auto;
+	
+	
+	text-align:center;
+	padding:0px;
+	
+    transition: all 0.5s;
+	
+	-webkit-animation: fadein 0.75s ease-in;
+    -moz-animation: fadein 0.75s ease-in;
+	-o-animation: fadein 0.75s ease-in;
+    animation: fadein 0.75s ease-in;
+}
+
+@media (orientation:portrait) and (max-width:450px) {
+
+}
+
+
+@media (orientation:portrait) and (min-width:650px) {
+
+	#ca_text-anim {
+		margin-top:15vh;
+	}
+}
+
+
+@media (orientation:landscape) and (max-height:500px) {
+	#ca_text-anim {
+		margin-top:25vh;
+	}	
+}
+
+
+
+@media (orientation:landscape) and (min-height:501px) {
+	#ca_text-anim {
+		margin-top:20vh;
+	}	
+}
+
+
+
+
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+
+
+.CA_zoomLogo{
+	
+	transform: scale(4.5);
+	-webkit-transform: scale(4.5);
+	-moz-transform: scale(4.5);
+	-o-transform: scale(4.5);
+}
+
+
+
+@media (max-width:650px) {
+
+	
+	.CA_zoomLogo{
+		
+		transform: scale(3);
+		-webkit-transform: scale(3);
+		-moz-transform: scale(3);
+		-o-transform: scale(3);
+	}
+}
+
+
+
+
+.CA_zoomText {
+	
+	transform: scale(4.5);
+	-webkit-transform: scale(4.5);
+	-moz-transform: scale(4.5);
+	-o-transform: scale(4.5);
+}
+
+
+
+
+.CA_slideOut {
+	transform: translateX(-120vw);
+	-webkit-transform: translateX(-120vw);
+	-moz-transform: translateX(-120vw);
+	-o-transform: translateX(-120vw);	
+}
+
+
+
+
+.CA_animation-unhide {
+	
+		visibility:visible !important;
+}
+
+
+.CA_animation-hide {
+	
+		visibility:hidden !important;
+}
+
+
+.CA_animation {
+	
+	position:relative;
+	overflow:hidden;
+	display:block;
+	
+	
+	z-index: 10;
+	
+	
+	background-color:black;
+
+	margin-left:100vw;
+	
+	
+	height:auto;
+	width:100%;
+	top:-40px;
+	
+	transition: all 2s ease-in;
+}
+
+
+.CA_anim-video {
+	
+	position:relative;
+	overflow:hidden;
+	display:block;
+	margin-top:1vw;
+	
+	max-width:400px;
+	max-height:350px;
+}
+
+
+
+.CA_anim-landing-2 {
+
+	display:block;
+	
+}
+
+@media (max-width:767px) {
+	
+	.CA_anim-landing-2 {
+
+		display:none;
+		
+	}
+}
+
+
+
+.CA_landing-book {
+	display:inline;
+	padding:5px;
+}
+
+.CA_landing-app, .CA_landing-tat {
+
+	display:inline;
+	padding:5px;
+	
+}
+
+@media (min-width:767px) {
+	
+	.CA_landing-app, .CA_landing-tat {
+
+		display:none;
+		
+	}
+}
+
+
+
+.CA_anim-img {
+	outline: 2px solid black; 
+}
+
+
+.CA_anim-img:hover {
+	outline: 2px solid white; 
+}
+
+
+
+
+#ca_anim-background {
+		
+	display:block;
+	height:100%;
+	width:100%;
+	margin-top:0px;
+}
+
+
+#ca_anim-row {
+		
+	display:block;
+	height:100%;
+	width:99vw;
+	padding-top:2vw;
+	padding-left:50px;
+
+}
+
+
+
+
+#ca_anim-box {
+		
+	display:block;
+	max-height:33vh;
+	min-height:140px;
+	width:100%;
+	
+	padding:2vw;
+	margin-top:1vw;
+	
+	background-color:purple;
+}
+
+#ca_logo {
+
+	display:block;
+	margin-top:0px;
+	
+	width:330px;
+	margin-left:auto;
+	margin-right:auto;	
+	
+	background-color:black;
+}
+
+
+
+
+@media (max-width:430px) {
+	#ca_logo {
+		margin-left:15vw;
+	}
+}
+
+
+@media (min-width:431px) {
+
+	#ca_logo  {
+		
+		margin-left:auto;
+		margin-right:auto;
+
+	}
+}
+
+
+
+.CA_slideIn {
+	margin-left:0;
+}
+
+
+
+
+
+
+
+.CA_mute-button {
+	
+	position:absolute;
+	z-index:100;
+	
+	top:10px;
+	right:20px;
+	
+	height:26px;
+	width:26px;
+	
+	background-size:cover;
+	background-repeat:none;
+	background-image: url("IMG/CA_mute.png");
+}
+
+.CA_mute-button:hover {
+	
+	background-image: url("IMG/CA_mute_1.png");
+}
+
+
+
+
+.CA_unMute-button {
+	
+	position:absolute;
+	z-index:100;
+	
+	top:10px;
+	right:20px;
+	
+	height:26px;
+	width:26px;
+	
+	background-size:cover;
+	background-repeat:none;
+	background-image: url("IMG/CA_unMute.png");
+}
+
+
+
+
+.CA_unMute-button:hover {
+	
+	background-image: url("IMG/CA_unMute_1.png");
+}
+
+
+
+
+@media (max-width:500px) {
+		
+	.CA_mute-button {
+		top:-5px !important;
+	}
+	
+	.CA_unMute-button {
+		top:-5px !important;
+	}
+}

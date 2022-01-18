@@ -1,0 +1,170 @@
+
+/**
+ * #CATHAIRAPP SLIDESHOW PICS
+ *
+ **/
+
+ 
+#ca_carousel-appPics {
+
+	-webkit-flex: none;
+     flex: none;
+
+	
+	z-index:50;
+	top:15px;
+	
+	height:300px;
+	width:300px;
+
+	overflow:hidden;
+
+}
+
+	
+	
+	
+	
+	
+	
+@media (min-width:500px) {
+
+	#ca_carousel-appPics {
+		height:425px;
+		width:425px;
+	}
+	
+	
+}
+
+
+ 
+ 
+ 
+ 
+ 
+/* SLIDESHOW IMAGES */
+
+
+.CA_appPics .item:nth-child(1) {
+	background-image: url("APP_PICS/CA_appPics_01.jpg");
+
+}
+
+.CA_appPics .item:nth-child(2) {
+	background-image: url("APP_PICS/CA_appPics_02.jpg");	
+	
+}
+
+
+
+.CA_appPics .item:nth-child(3) {
+	background-image: url("APP_PICS/CA_appPics_03.jpg");
+
+	
+}
+
+.CA_appPics .item:nth-child(4) {
+	background-image: url("APP_PICS/CA_appPics_04.jpg");
+
+}
+
+.CA_appPics .item:nth-child(5) {
+	background-image: url("APP_PICS/CA_appPics_05.jpg");	
+	
+}
+
+
+.CA_appPics .item:nth-child(6) {
+	background-image: url("APP_PICS/CA_appPics_06.jpg");
+
+	
+}
+
+.CA_appPics .item:nth-child(7) {
+	background-image: url("APP_PICS/CA_appPics_07.jpg");
+
+}
+
+.CA_appPics .item:nth-child(8) {
+	background-image: url("APP_PICS/CA_appPics_08.jpg");	
+	
+}
+
+
+.CA_appPics .item:nth-child(9) {
+	background-image: url("APP_PICS/CA_appPics_09.jpg");
+
+	
+}
+
+.CA_appPics .item:nth-child(10) {
+	background-image: url("APP_PICS/CA_appPics_10.jpg");
+
+}
+
+.CA_appPics .item:nth-child(11) {
+	background-image: url("APP_PICS/CA_appPics_11.jpg");	
+	
+}
+
+
+.CA_appPics .item:nth-child(12) {
+	background-image: url("APP_PICS/CA_appPics_12.jpg");
+
+	
+}
+
+
+
+.CA_appPics .item:nth-child(13) {
+	background-image: url("APP_PICS/CA_appPics_13.jpg");
+
+	
+}
+
+
+.CA_appPics .item:nth-child(14) {
+	background-image: url("APP_PICS/CA_appPics_14.jpg");
+
+	
+}
+
+
+.CA_appPics .item:nth-child(15) {
+	background-image: url("APP_PICS/CA_appPics_15.jpg");
+
+	
+}
+
+
+.CA_appPics .item:nth-child(16) {
+	background-image: url("APP_PICS/CA_appPics_16.jpg");
+
+	
+}
+
+.CA_appPics .item:nth-child(17) {
+	background-image: url("APP_PICS/CA_appPics_17.jpg");
+
+	
+}
+
+.CA_appPics .item:nth-child(18) {
+	background-image: url("APP_PICS/CA_appPics_18.jpg");
+
+	
+}
+
+.CA_appPics .item:nth-child(19) {
+	background-image: url("APP_PICS/CA_appPics_19.jpg");
+
+	
+}
+
+.CA_appPics .item:nth-child(20) {
+	background-image: url("APP_PICS/CA_appPics_20.jpg");
+
+	
+}
+

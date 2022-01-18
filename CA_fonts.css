@@ -1,0 +1,196 @@
+H1 {
+	
+	
+	font-family:"Jockey One", sans-serif;
+	
+	font-size:3.6vw;
+	font-weight:200;
+	
+	color:white;
+	
+	word-spacing: .001ex;
+	letter-spacing: .05vw;
+	text-decoration: none;
+	
+	text-transform: uppercase;
+}
+
+
+
+
+@media (max-width:450px) {
+
+	H1  {
+		font-size: 3.5vw;
+	}
+}
+
+
+
+@media (min-width:768px) {
+
+	H1  {
+		font-size: 2vw;
+	}
+}
+
+
+
+
+H1-sm {
+	
+	
+	font-family:"Jockey One", sans-serif;
+	
+	font-size:2.5vw;
+	font-weight:200;
+	
+	color:white;
+	
+	word-spacing: .001ex;
+	letter-spacing: .05vw;
+	text-decoration: none;
+	
+	text-transform: uppercase;
+}
+
+
+
+
+@media (max-width:450px) {
+
+	H1-sm  {
+		font-size: 3vw;
+	}
+}
+
+
+
+
+
+@media (min-width:768px) {
+
+	H1-sm {
+		font-size: 1.8vw;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+B2 {
+	
+	font-family:"Khand", sans-serif;
+	
+	font-size:14px;
+	font-weight:200;
+	
+	color:white;
+	
+	word-spacing: .001ex;
+	letter-spacing: .001ex;
+	text-decoration: none;
+}
+
+
+B3 {
+	
+	font-family:"Fjalla One", sans-serif;
+
+	font-size: 4px;
+
+	font-weight: 600;
+
+	color:white;
+
+	word-spacing: .05ex;
+	letter-spacing: .05ex;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+
+
+
+
+@media (max-width:400px) {
+
+	B3  {
+		font-size: 3px;
+	}
+}
+
+
+@media (min-width:600px) {
+
+	B3  {
+		font-size: 5px;
+	}
+}
+
+
+
+
+B4 {
+
+	font-family:"Francois One", sans-serif;
+	font-weight: 400;
+	font-size: 3.75vw;
+    color: white;
+	
+}
+
+
+
+
+
+@media (min-width:580px) {
+
+	B4  {
+		font-size: 1.25em;
+	}
+}
+
+
+
+B8 {
+	font-family: Arial Bold, sans-serif;
+	font-weight: 700;
+	padding:0px;
+	font-size: 11.5em;
+    color: white;
+	
+}
+
+
+@media (max-width:767px) {
+
+	B8  {
+		font-size: 13em;
+	}
+}
+
+
+  
+B9 {
+	font-family: Arial Bold, sans-serif;
+	font-weight: 700;
+	font-size: 5em;
+    color: white;
+
+}

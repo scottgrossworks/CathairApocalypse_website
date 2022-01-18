@@ -1,0 +1,146 @@
+
+
+.btn-default
+{
+color: rgba(255, 255, 255, 0.35);
+border-color: white;
+}
+
+.btn-outline 
+{
+background-color: transparent;
+color: inherit;
+border-width: 2px;
+-webkit-transition: all 0.25s;
+-moz-transition: all 0.25s;
+transition: all 0.25s;
+border-radius: 0;
+}
+
+
+.btn-outline:hover {
+border-color:fuchsia;
+}
+
+
+
+
+@media (max-width: 570px) {
+  .btn-responsive {
+    padding:2px 6px;
+    line-height: 1.2;
+  }
+}
+
+@media (min-width: 571px) {
+  .btn-responsive {
+    padding:4px 9px;
+    line-height: 1.5;
+  }
+}
+
+
+
+
+
+
+.colorCycle-Primary 
+{ 
+background-color: background-color:rgba(255, 255, 255, 0.75);
+border-width: 2px;
+color: background-color:rgba(255, 255, 255, 0.75);
+animation-name: primary-color;
+animation-duration:5s;
+animation-direction:alternate;
+animation-iteration-count:infinite;
+
+-webkit-animation-name: primary-color;
+-webkit-animation-duration:5s;
+-webkit-animation-direction:alternate;
+-webkit-animation-iteration-count:infinite; 
+}
+
+@keyframes primary-color
+{
+0% {background-color:rgba(255, 255, 255, 0.15);}
+25% {background-color:rgba(255, 255, 255, 0.35);}
+50% {background-color:rgba(255, 255, 255, 0.55);}
+75% {background-color:rgba(255, 255, 255, 0.75);}
+}
+
+@-webkit-keyframes Primary
+{
+0% {background-color:rgba(255, 255, 255, 0.15);}
+25% {background-color:rgba(255, 255, 255, 0.35);}
+50% {background-color:rgba(255, 255, 255, 0.55);}
+75% {background-color:rgba(255, 255, 255, 0.75);}
+} 
+
+
+.colorCycle 
+{ 
+background-color: rgba(255, 255, 255, 0.75);
+border-width: 2px;
+color: rgba(255, 255, 255, 0.75);
+animation-name: homeCycle;
+animation-duration:5s;
+animation-direction:alternate;
+animation-iteration-count:infinite;
+
+-webkit-animation-name: homeCycle;
+-webkit-animation-duration:5s;
+-webkit-animation-direction:alternate;
+-webkit-animation-iteration-count:infinite; 
+}
+
+@keyframes homeCycle
+{
+0% {background-color:rgba(255, 255, 255, 0.75);}
+25% {background-color:rgba(255, 255, 255, 0.55);}
+50% {background-color:rgba(255, 255, 255, 0.35);}
+75% {background-color:rgba(255, 255, 255, 0.15);}
+}
+
+@-webkit-keyframes homeCycle
+{
+0% {background-color:rgba(255, 255, 255, 0.75);}
+25% {background-color:rgba(255, 255, 255, 0.55);}
+50% {background-color:rgba(255, 255, 255, 0.35);}
+75% {background-color:rgba(255, 255, 255, 0.15);}
+} 
+
+
+
+
+
+.colorCycle2
+{ 
+background-color: rgba(255, 255, 255, 0.55);
+border-width: 2px;
+color: rgba(255, 255, 255, 0.55);
+animation-name: homeCycle2;
+animation-duration:5s;
+animation-direction:alternate;
+animation-iteration-count:infinite;
+
+-webkit-animation-name: homeCycle2;
+-webkit-animation-duration:5s;
+-webkit-animation-direction:alternate;
+-webkit-animation-iteration-count:infinite; 
+}
+
+@keyframes homeCycle2
+{
+0% {background-color:rgba(255, 255, 255, 0.15);}
+25% {background-color:rgba(255, 255, 255, 0.75);}
+50% {background-color:rgba(255, 255, 255, 0.55);}
+75% {background-color:rgba(255, 255, 255, 0.35);}
+}
+
+@-webkit-keyframes homeCycle2
+{
+0% {background-color:rgba(255, 255, 255, 0.15);}
+25% {background-color:rgba(255, 255, 255, 0.75);}
+50% {background-color:rgba(255, 255, 255, 0.55);}
+75% {background-color:rgba(255, 255, 255, 0.35);}
+} 

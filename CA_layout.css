@@ -1,0 +1,573 @@
+
+HTML, BODY {
+
+  margin:0;
+  padding:0;
+  overflow-x:hidden;
+} 
+
+
+BODY {
+
+  position:relative;
+  
+  width: 100%;
+  height: 100%;
+  
+  background-color:black;
+}
+
+
+
+
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+
+
+#ca_bkg {
+	
+	background: url("IMG/CA_background.jpg");
+
+	background-repeat:no-repeat;
+	/* background-attachment:fixed;  --- causes blurry bkg on iOS phones */
+	
+	background-position:center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+	display:block;
+	position:fixed;
+	width:100%;
+	height:100vh;
+	left:0px;
+	top:0px;
+	z-index:-10;
+}
+
+
+
+
+#ca_anim-wrapper {
+
+	display:block;
+
+	width:100%;
+	margin:0;
+	padding:0;
+	height:auto;
+
+	background-color:black;	
+}
+
+#ca_anim-wrapper a:link {
+	color:lime;
+	text-decoration:none;
+}
+
+#ca_anim-wrapper a:visited {
+	color:lime;
+	text-decoration:none;
+}
+
+
+
+
+#ca_page-wrapper {
+
+	position: relative;	
+	
+	margin:0;
+	padding:0;
+	
+	width:100%;
+	height: 100%;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	
+	background-color:transparent;
+}
+
+
+.CA_adv-1 {
+	
+	display:table;
+	margin:0 auto;
+}
+
+
+.CA_adv-1 div {
+
+	display:table-cell;
+	vertical-align:middle;
+		
+	width:400px;
+	height:auto;
+}
+
+
+
+
+
+
+
+/*
+ * SECTION CLASS USED IN
+ * 
+ * TOUR PICS SLIDESHOW
+ * #CATHAIRAPP
+ * LIST OF STORES 
+ */
+
+
+.CA_section {
+	
+	position:relative;
+	display:block;
+	
+	overflow:hidden;
+	
+	padding:10px 0px 0px 0px;
+	
+	width:100vw;
+	height:580px;
+	
+	background-color:black;	
+}
+
+
+
+
+
+@media (min-width:0px) and (max-width:230px) {
+
+	.CA_section {
+		height:780px;
+	}
+}
+
+
+
+
+@media (min-width:231px) and (max-width:500px) {
+
+	.CA_section {
+		height:580px;
+	}
+}
+
+
+
+@media (min-width:501px) and (max-width:767px){
+
+	.CA_section {
+		height:680px;
+	}
+}
+
+
+
+
+
+.CA_titleBar {
+	
+	padding-left:5vw;
+	padding-top:5px;
+	height:40px;
+}
+
+@media (max-width:350px) {
+		
+	.CA_titleBar {		
+		padding-left:25px;
+		height:60px;
+	}
+}
+
+
+
+
+.CA_section-text {
+
+	top:15px;
+
+	max-width:80vw;
+
+	
+	margin:0 auto;
+	padding:20px 10px 0px 10px;
+	
+	text-align:middle;
+	vertical-align:middle;
+}
+
+
+@media (min-width:800px) {
+	
+	.CA_section-text {
+		left:-5vw;
+	}
+}
+
+
+.CA_section-text a {
+	color:lime;
+}
+
+
+
+
+
+
+/*
+ * SECTION 0
+ * 
+ * TOUR PICS 
+ */
+
+ 
+ @media (max-width:400px) {
+	#ca_section0 {
+		left:-5px; 
+	}
+ }
+ 
+
+.CA_section0-img {
+	
+	display:none;
+	
+}
+
+
+@media (min-width:768px) {
+
+	.CA_section0-img {
+		display:block;
+		
+		margin: 0 auto 20px auto;
+		top:0px;
+		left:0px;
+		
+		width:250px;
+		height:250px;
+
+		background-size:cover;
+		background-repeat:no-repeat;
+		background-image: url("TOUR_PICS/CA_tourPics_04.jpg");
+		
+	}
+}
+
+
+ 
+ 
+
+
+
+
+/*
+ * SECTION 1
+ * 
+ * BUY THE BOOK 
+ */
+
+#ca_section1 {
+	
+	position:relative;
+	display:block;
+	
+	overflow:hidden;
+	margin-top:5vh;
+
+	border:0;
+	padding:10px 0px 0px 0px;
+	 
+	width:100%;
+	height:650px;
+	
+	background-color:black;	
+}
+
+
+
+	
+	
+@media (max-width:768px) {
+
+	#ca_section1 {
+		height:100%;
+	}
+}
+
+
+
+
+
+.CA_section1-img {
+	
+	display:none;
+	
+}
+
+
+@media (min-width:768px) {
+
+	.CA_section1-img {
+		display:block;
+		
+		margin: 0 auto 20px auto;
+		top:0px;
+		left:0px;
+		
+		width:250px;
+		height:250px;
+
+		background-size:cover;
+		background-repeat:no-repeat;
+		background-image: url("APP_PICS/CA_appPics_04.jpg");
+	}
+}
+
+
+
+
+
+
+/*
+ * SECTION 2
+ * 
+ * #CATHAIRAPP PICS SLIDESHOW 
+*/
+
+	
+@media (max-width:500px) {
+
+	#ca_section2 {
+		height:700px;
+	}
+}
+
+
+
+@media (min-width:501px) and (max-width:768px) {
+
+	#ca_section2 {
+		height:760px;
+	}
+}
+
+
+@media (min-width:769px)  {
+		
+	#ca_section2 {
+		height:620px;
+	}
+}
+
+
+#ca_section2 a {
+	color:lime;
+	text-decoration:none;
+}
+
+#ca_section2-text a {
+	color:lime;
+}
+
+
+
+
+
+
+/*
+ * SECTION 3
+ * 
+ * BUY CAT TATS 
+ */
+
+
+
+#ca_section3 {
+	
+	position:relative;
+	display:block;
+	
+	overflow:hidden;
+	margin-top:5vh;
+
+	border:0;
+	padding:10px 0px 0px 0px;
+	 
+	width:100%;
+	height:620px;
+	
+	background-color:black;	
+}
+
+
+
+
+@media (max-width:768px) {
+
+	#ca_section3 {
+		height:100%;
+	}
+}
+
+	
+
+
+
+#ca_section3-text {
+
+	top:15px;
+	margin:0 auto;
+	max-width:550px;
+
+	padding:20px;
+
+	vertical-align:middle;
+}
+
+
+@media (min-width:800px) {
+	
+	#ca_section3-text {
+		left:-5vw;
+	}
+}
+
+
+
+
+
+
+
+
+/*
+ * SECTION 4
+ * 
+ * IN STORES IFRAME 
+ */
+
+ 
+#ca_section4 {
+	margin-top:10px;
+	height:550px;
+}
+
+@media (max-width:768px) {
+
+	#ca_section4 {
+		height:650px;
+	}
+}
+
+#ca_stores {
+	
+	width:90vw;
+	min-height:400px;
+	height:400px;
+	margin-top:10px;
+	border:0px;
+}
+
+
+@media (min-width:768px) {
+	
+	#ca_stores {
+		width:500px;
+		height:400px !important;
+	}
+}
+
+
+
+
+
+
+
+/*
+ * SECTION 5
+ * 
+ * CONTACT
+*/
+
+#ca_section5  {
+	height:500px;
+}
+
+@media (min-width:768px) {
+	
+	#ca_section5  {
+		height:350px;
+	}
+
+}
+
+
+
+
+
+
+
+/*
+ * SECTION PS
+ * 
+ * PACKING AND SHIPPING
+*/
+
+#ca_sectionPS  {
+	height:550px;
+}
+
+#ca_sectionPS  a {
+	color:lime;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+ * SECTION COPY
+ * 
+ * COPYRIGHT
+*/
+
+#ca_sectionCOPY  {
+	height:15vh;
+}
+
+
+@media (min-width:768px) {
+	
+	#ca_sectionCOPY {
+		height:70px;
+	}
+}
+
+
+#ca_sectionCOPY  a {
+	color:lime;
+}
+
+
+
+
+
+
+
+
+

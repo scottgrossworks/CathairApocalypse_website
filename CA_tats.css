@@ -1,0 +1,45 @@
+
+
+/**
+ * CAT TATS UI
+ * 
+ *
+ **/
+
+
+ 
+ 
+ 
+#ca_tats-preview {
+	
+	width:400px;
+	height:240px;
+	
+	min-width:400px;
+	
+	left:0px;
+	top:0px;
+	
+	margin: 5px auto 5px auto;
+	scrolling:off;
+	overflow:hidden;
+}
+ 
+ 
+#ca_tats-preview img {
+	
+	width:100%;
+	height:100%;
+}
+
+
+
+@media (min-width:820px) {
+	
+	#ca_tats-preview {
+		width:500px;
+		height:300px;
+	}
+
+}
+

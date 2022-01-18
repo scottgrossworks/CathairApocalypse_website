@@ -1,0 +1,237 @@
+
+/**
+ * TOUR PICS
+ * SLIDESHOW CAROUSEL
+ *
+ **/
+
+
+
+#ca_carousel-tourPics {
+
+	-webkit-flex: none;
+     flex: none;
+
+	
+	z-index:50;
+	top:15px;
+	
+	height:300px;
+	width:300px;
+
+	overflow:hidden;
+}
+
+
+ 
+ 
+	
+	
+@media (min-width:500px) {
+
+	#ca_carousel-tourPics {
+		height:425px;
+		width:425px;
+	}
+	
+	
+}
+
+/* SLIDESHOW IMAGES */
+
+
+.CA_tourPics .item:nth-child(1) {
+	background-image: url("TOUR_PICS/CA_tourPics_01.jpg");
+
+}
+
+.CA_tourPics .item:nth-child(2) {
+	background-image: url("TOUR_PICS/CA_tourPics_02.jpg");	
+	
+}
+
+
+
+.CA_tourPics .item:nth-child(3) {
+	background-image: url("TOUR_PICS/CA_tourPics_03.jpg");
+
+	
+}
+
+.CA_tourPics .item:nth-child(4) {
+	background-image: url("TOUR_PICS/CA_tourPics_04.jpg");
+
+}
+
+.CA_tourPics .item:nth-child(5) {
+	background-image: url("TOUR_PICS/CA_tourPics_05.jpg");	
+	
+}
+
+
+.CA_tourPics .item:nth-child(6) {
+	background-image: url("TOUR_PICS/CA_tourPics_06.jpg");
+
+	
+}
+
+.CA_tourPics .item:nth-child(7) {
+	background-image: url("TOUR_PICS/CA_tourPics_07.jpg");
+
+}
+
+.CA_tourPics .item:nth-child(8) {
+	background-image: url("TOUR_PICS/CA_tourPics_08.jpg");	
+	
+}
+
+
+.CA_tourPics .item:nth-child(9) {
+	background-image: url("TOUR_PICS/CA_tourPics_09.jpg");
+
+	
+}
+
+.CA_tourPics .item:nth-child(10) {
+	background-image: url("TOUR_PICS/CA_tourPics_10.jpg");
+
+}
+
+.CA_tourPics .item:nth-child(11) {
+	background-image: url("TOUR_PICS/CA_tourPics_11.jpg");	
+	
+}
+
+
+.CA_tourPics .item:nth-child(12) {
+	background-image: url("TOUR_PICS/CA_tourPics_12.jpg");
+
+	
+}
+
+
+
+.CA_tourPics .item:nth-child(13) {
+	background-image: url("TOUR_PICS/CA_tourPics_13.jpg");
+
+	
+}
+
+
+
+.CA_tourPics .item:nth-child(14) {
+	background-image: url("TOUR_PICS/CA_tourPics_14.jpg");
+
+	
+}
+
+
+
+
+.CA_tourPics .item:nth-child(15) {
+	background-image: url("TOUR_PICS/CA_tourPics_15.jpg");
+
+	
+}
+
+
+
+.CA_tourPics .item:nth-child(16) {
+	background-image: url("TOUR_PICS/CA_tourPics_16.jpg");
+
+	
+}
+
+
+
+.CA_tourPics .item:nth-child(17) {
+	background-image: url("TOUR_PICS/CA_tourPics_17.jpg");
+
+	
+}
+
+
+
+.CA_tourPics .item:nth-child(18) {
+	background-image: url("TOUR_PICS/CA_tourPics_18.jpg");
+
+	
+}
+
+
+
+.CA_tourPics .item:nth-child(19) {
+	background-image: url("TOUR_PICS/CA_tourPics_19.jpg");
+
+	
+}
+
+
+
+
+
+.CA_tourPics .item:nth-child(20) {
+	background-image: url("TOUR_PICS/CA_tourPics_20.jpg");
+
+	
+}
+
+
+
+
+
+.CA_tourPics .item:nth-child(21) {
+	background-image: url("TOUR_PICS/CA_tourPics_21.jpg");
+
+	
+}
+
+
+
+
+
+.CA_tourPics .item:nth-child(22) {
+	background-image: url("TOUR_PICS/CA_tourPics_22.jpg");
+
+	
+}
+
+
+
+
+
+.CA_tourPics .item:nth-child(23) {
+	background-image: url("TOUR_PICS/CA_tourPics_23.jpg");
+
+	
+}
+
+
+
+
+.CA_tourPics .item:nth-child(24) {
+	background-image: url("TOUR_PICS/CA_tourPics_24.jpg");
+
+	
+}
+
+
+
+
+
+.CA_tourPics .item:nth-child(25) {
+	background-image: url("TOUR_PICS/CA_tourPics_25.jpg");
+
+	
+}
+
+
+
+
+
+.CA_tourPics .item:nth-child(26) {
+	background-image: url("TOUR_PICS/CA_tourPics_26.jpg");
+
+	
+}
+
