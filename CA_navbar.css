@@ -1,7 +1,8 @@
 /* 
  * LEFT NAVBAR
  *
- *
+ * slides down left side of page, tracks with scroll, different icons highlight as corresponding
+ * section becomes active
  */
 
 .nav {
